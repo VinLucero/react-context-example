@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #353d2e;
+  /* background-color: var(--_darkest, #1a1919); */
+  color: var(--_lightest, #e7e7e7);
+  font-family: "Manrope", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h1,
+h3,
+h5 {
+  color: #fff;
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+}
+
+h1 {
+  color: #f79f08;
+}
+
+p {
+  color: #bbbcb8;
+  font-size: 15px;
+  line-height: 1.25;
+  letter-spacing: -0.1px;
+  font-family: "Manrope", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.App {
+  font-family: sans-serif;
+  padding: 16px;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Card {
+  box-shadow: 0px 1px 6px 6px rgba(0, 0, 0, 0.12);
+  border-radius: 16px;
+  max-width: 240px;
+  padding: 16px;
+}
+
+.Login {
+  background-color: rgba(255, 255, 255, 0.09);
+  border-radius: 4px;
+  border: 1px solid rgba(194, 194, 194, 0.31);
+  max-width: 240px;
+  padding: 24px;
+}
+.Login p {
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+.Login input {
+  padding: 12px;
+  max-width: 120px;
+}
+.Login button {
+  padding: 12px;
+}
